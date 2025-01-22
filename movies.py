@@ -143,9 +143,9 @@ def main():
             elif choice == 8:
                 sorted_movie(movies)
             else:
-                print('Invalid choice. Please select between 1 and 9.')
+                print('Invalid choice. Please select between 1 and 8.')
         except ValueError:
-            print('Invalid input! Please enter a number between 1 and 9.')
+            print('Invalid input! Please enter a number between 1 and 8.')
 
 if __name__ == "__main__":
     main()
